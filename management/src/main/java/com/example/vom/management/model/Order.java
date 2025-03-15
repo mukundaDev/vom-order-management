@@ -38,7 +38,7 @@ public class Order {
 	public String getProvider() {
 		return provider;
 	}
-	public void setProvider(String provider) {
+	public  void setProvider(String provider) {
 		this.provider = provider;
 	}
 	public String getStatus() {

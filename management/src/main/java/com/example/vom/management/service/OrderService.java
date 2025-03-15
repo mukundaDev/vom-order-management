@@ -37,7 +37,6 @@ public class OrderService {
 	        order.setUpdatedAt(LocalDateTime.now());
 	        return orderRepository.save(order);
 	}
-	
 	 // Submit the order to the provider
     public Order submitOrder(Long orderId) {
         Order order = orderRepository.findById(orderId)
